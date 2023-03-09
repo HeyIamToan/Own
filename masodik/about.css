@@ -20,3 +20,9 @@ a:hover, a:active {
     color:rgb(101, 101, 166);
     background: rgb(193, 179, 179);
 }
+.myimage {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
