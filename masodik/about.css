@@ -16,6 +16,7 @@ a:hover, a:active {
     color:#eee;
 }
 #heading1 {
-    color:rgb(101, 71, 129);
-    background: rgb(191, 175, 175);
+    font-family: monospace;
+    color:rgb(101, 101, 166);
+    background: rgb(193, 179, 179);
 }
