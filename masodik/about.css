@@ -15,3 +15,7 @@ a:visited {
 a:hover, a:active {
     color:#eee;
 }
+#heading1 {
+    color:rgb(101, 71, 129);
+    background: rgb(191, 175, 175);
+}
