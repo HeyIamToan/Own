@@ -10,56 +10,61 @@
         <title>about Toan</title>
     </head>
     <body>
-        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something about Toan</h3>
-        <figure>
-            <img class="myimage" width="160" height="150" src="/image/toanimage.jpeg" alt="My profile picture" loading="lazy">
-        </figure>
-        <ul>
-            <li>Nationality: <strong>Vietnamese</strong></li>
-            <li>Address: <strong>Vitez Janos street 33, Kecskemet, Hungary</strong></li>
-            <li>Education: <em>Sophomore at John von Neumann University</em> </li>
-        </ul>
-
-        <h4> Here are some courses in this semester: </h4>
-
-        <table border="2" cellpadding="10" cellspacing="0">
-            <tr id="heading1">
-                <th></th>
-                <th>Databases System</th>
-                <th>Visual Programming</th>
-                <th>Web Programming 1</th>
-                <th>Controls Technique</th>
-                <th>Algorithm 2</th>
-                <th>Company Relavant Information</th>
-                <th>Basic about IT security</th>
-                <th>Physical Education 2</th>
-            </tr>
-            <tr>
-                <td rowspan="2">info</td>
-                <td>5</td>
-                <td>5</td>
-                <td>5</td>
-                <td>4</td>
-                <td>5</td>
-                <td>4</td>
-                <td>3</td>
-                <td>sign required</td>
-            </tr>
-            <tr>
-                <td>process core</td>
-                <td>process core</td>
-                <td>process core</td>
-                <td>exam required</td>
-                <td>exam required</td>
-                <td>process core</td>
-                <td>exam required</td>
-                <td>attendant required</td>
-            </tr>
-        </table>
-       <br><br><br>
-        <form>
-            <label>&gtdot; Ask me for more: </label>
-            <input type="text" placeholder="type here">
+        <header>
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About Toan</h1>
+        </header>
+        <main>
+                <figure>
+                    <img class="myimage" width="160" height="150" src="/image/toanimage.jpeg" alt="My profile picture" loading="lazy">
+                </figure>
+                <div id="listinfo">
+                    <span><strong>Nationality:</strong> Vietnamese<br></span>
+                    <span><strong>Address:</strong> Hungary<br></span>
+                    <span><strong>Education:</strong> Undergradute</span>
+                </div>
+    
+            <div>
+            <h3> Here are some courses in this semester: </h3>
+            <table border="2" cellpadding="10" cellspacing="0">
+                <tr id="heading1">
+                    <th></th>
+                    <th>Databases System</th>
+                    <th>Visual Programming</th>
+                    <th>Web Programming 1</th>
+                    <th>Controls Technique</th>
+                    <th>Algorithm 2</th>
+                    <th>Company Relavant Information</th>
+                    <th>Basic about IT security</th>
+                    <th>Physical Education 2</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">info</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>sign required</td>
+                </tr>
+                <tr>
+                    <td>process core</td>
+                    <td>process core</td>
+                    <td>process core</td>
+                    <td>exam required</td>
+                    <td>exam required</td>
+                    <td>process core</td>
+                    <td>exam required</td>
+                    <td>attendant required</td>
+                </tr>
+            </table>
+            </div>
+        </main>
+       <footer>
+        <form action="https://www.facebook.com/caotoan2001/">
+            <label for="question">&gtdot; Ask me for more: </label>
+            <input id="question" type="text" placeholder="type here" required>
             <input type="submit" value="submit">
         </form>
         <div>
@@ -68,8 +73,9 @@
         </div>
         &gtdot; Dial <a href="tel:+36202345357">Phone number</a>.
         <br>&gtdot; <a href="/image/toanimage.jpeg" download>Download my pic Here!</a>
-    <p>
-        <a href="/">Back to home</a>
-    </p>
+        <p>
+            <a href="/">Back to home</a>
+        </p>
+        </footer>
     </body>
 </html>

@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html {
     font-size: 18px;
 }
@@ -25,4 +28,16 @@ a:hover, a:active {
     height: 180px;
     object-fit: cover;
     border-radius: 50%;
+}
+header {
+    text-align: center;
+    padding-right: 50px;
+}
+main {
+    text-align: center;
+    margin: 10px 0 40px 0;
+}
+#listinfo {
+    text-align: center;
+    padding-bottom: 20px;
 }
