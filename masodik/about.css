@@ -41,3 +41,12 @@ main {
     text-align: center;
     padding-bottom: 20px;
 }
+table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    width:70%;
+    margin-left:15%; 
+    margin-right:15%;
+}

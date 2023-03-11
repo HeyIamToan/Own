@@ -1,16 +1,35 @@
 html {
-    font-size: 22px;
+    font-size: 13px;
 }
 body {
-    background-color: #333;
-    color:whitesmoke;
+    background-color: burlywood;
+    color: black;
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1, h2 {
+    color: rgba(57, 36, 36, 0.8);
+    font-family: Impact;
+    text-align: center;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-left: auto;
+    margin-right: auto;
 }
 a {
-    color: aliceblue;
+    color: black;
 }
 a:visited {
-    color: lightgray;
+    color: black;
 }
 a:hover, a:active {
-    color: #eee;
+    color: brown;
+}
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+footer {
+    font-size: 14px;
 }

@@ -1,101 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Cao Toan">
-        <meta name="description" content="This page content all things I am learning how to create a HTML page">
-        <link rel="icon" href="/image/html5.png" type="image/x-icon">
-        <link rel="stylesheet" href="main.css" type="text/css">
-        <title>Second Webpage</title>
-    </head>
-    <body>
-        <header>
-            <h2>Second Website of Toan</h2>
-            <p>This is my second page</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Cao Toan" />
+    <meta
+      name="description"
+      content="This page content all things I am learning how to create a HTML page"
+    />
+    <link rel="icon" href="/image/html5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>Second Webpage</title>
+  </head>
+  <body>
+    <header>
+      <h1>Second Website of Toan</h1>
+      <p>This is my second page</p>
 
-            <nav>
-                <ul>
-                    <li><a href="#html">Learn Html</a></li>
-                    <li><a href="#vacay">Vacation Tourist Attractions</a></li>
-                    <li><a href="#avoidplaces">Places to avoid</a></li>
-                    <li><a href="#pics">Some Pics about scenery</a></li>
-                </ul>
-            </nav>
-        </header>
-        <hr>
-        <main>
-            <article id="html"> 
-                
-                <h2>My second web to learn Html</h2>
-                <section>
-                    <h3>My Daily Schedule</h3>
-                     <p>Lemme tell you how:
-                        <br>&nbsp;&nbsp;&nbsp;...I learn more about Webpage
-                        <br>&nbsp;&nbsp;&nbsp;...I plan out my Schedule
-                        <br>&nbsp;&nbsp;&nbsp;...I use rerouces from <abbr title="Freecodecamp"><a href="https://www.freecodecamp.org/" target="_blank">FCC</a></abbr>
-                    </p>
-                    <aside>
-                        <details>
-                            <summary>
-                                Guess the <mark> number of hours</mark> I code per day.
-                            </summary>
-                            <p>I start at <time datetime="08:00"> 8 am </time> and write code for <time datetime="PTH3"> 3 </time> hours every morning.</p>
-                        </details>
-                    </aside>
-                </section>
-            <!--ToDo: Add more places -->
+      <nav>
+        <ul>
+          <li><a href="#html">Learn Html</a></li>
+          <li><a href="#vacay">Vacay Tourist Attractions</a></li>
+          <li><a href="#avoidplaces">Places to avoid</a></li>
+          <li><a href="#pic">Scenery Pictures</a></li>
+        </ul>
+      </nav>
+    </header>
 
-                <section >
-                <h3>Tourist Attractions In Bentre, <em>Vietnam</em></h3>
-                    <ul>
-                        <li>
-                        <p>Cồn Phụng</p>
-                            <address>
-                                Cồn Phụng thuộc ấp Tân Vinh, xã Tân Thạch
-                                <br>huyện Châu Thành, tỉnh Bến Tre. 
-                            </address>
-                
-                        </li>
-                        <li>
-                        <p>Chùa Vạn Phước</p>
-                            <address>
-                            Ấp Bình Chiến thuộc huyện Bình Đại tỉnh Bến Tre.
-                            </address>
-                        </li>
-                    </ul>
-                </section>
-
-                <section id="avoidplaces">
-                <h3>Places to avoid: </h3>
-                <dl>
-                    <dt>North Pole</dt>
-                    <dd>I hear this is <strong>cold</strong>!</dd>
-                    <dt>Sould Pole</dt>
-                    <dd>This is also cold</dd>
-                    <dt>Mountain Tops</dt>
-                    <dd>This is also cold</dd>
-                </dl>
-                 </section>
-
-                <section>
-                <h3>Here is some spectualar photos: </h3>
-                    <figure>
-                        <img width="400" height="200" src="/image/ruongbacthang.jpeg" alt="Terrace in Sapa" loading="lazy">
-                        <figcaption>Sapa Terraces</figcaption>
-                    </figure>
-                </section>
-
-            </article>
-        </main>     
-        <hr>    
-        <footer>
+    <main>
+      <article id="html">
+        <h2>My second web to learn Html</h2>
+        <h3>My Daily Schedule</h3>
+        <p>
+          Lemme tell you how: <br />&nbsp;&nbsp;&nbsp;...I learn more about
+          Webpage <br />&nbsp;&nbsp;&nbsp;...I plan out my Schedule
+          <br />&nbsp;&nbsp;&nbsp;...I use rerouces from
+          <abbr title="Freecodecamp"
+            ><a href="https://www.freecodecamp.org/" target="_blank"
+              >FCC</a
+            ></abbr
+          >
+        </p>
+        <aside>
+          <details>
+            <summary>
+              Guess the <mark> number of hours</mark> I code per day.
+            </summary>
             <p>
-                &lt;&lt;&lt; &copy; <a href="about.html" target="_blank">Cao Toan</a> &gt;&gt;&gt;
-            </p>    
-            <p>
-                <a href="#">Back to Top</a>
+              I start at <time datetime="08:00"> 8 am </time> and write code for
+              <time datetime="PTH3"> 3 </time> hours every morning.
             </p>
-        </footer>   
-    </body>
+          </details>
+        </aside>
+      </article>
+      <!--ToDo: Add more places -->
+
+      <article id="vacay">
+        <h2>Travel and Things to know</h2>
+        <section>
+          <h3>Tourist Attractions In Bentre, <em>Vietnam</em></h3>
+          <ul>
+            <li>
+              <h4>Cồn Phụng</h4>
+              <address id="conphung">
+                Cồn Phụng thuộc ấp Tân Vinh, xã Tân Thạch
+                <br />huyện Châu Thành, tỉnh Bến Tre.
+              </address>
+            </li>
+            <li>
+              <h4>Chùa Vạn Phước</h4>
+              <address id="chua">
+                Ấp Bình Chiến thuộc huyện Bình Đại tỉnh Bến Tre.
+              </address>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Places to avoid:</h3>
+          <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
+            <dt>Sould Pole</dt>
+            <dd>This is also cold</dd>
+            <dt>Mountain Tops</dt>
+            <dd>This is also cold</dd>
+          </dl>
+        </section>
+
+        <section>
+          <h3>Some spectualar pictures in Sapa:</h3>
+          <figure>
+            <img
+              width="400"
+              height="200"
+              src="/image/ruongbacthang.jpeg"
+              alt="Terrace in Sapa"
+              loading="lazy"
+            />
+            <figcaption>Sapa Terraces</figcaption>
+          </figure>
+          <figure>
+            <img
+              width="400"
+              height="200"
+              src="/image/caumaysapa.jpeg"
+              alt="Terrace in Sapa"
+              loading="lazy"
+            />
+            <figcaption>Rong May Glass Bridge Sapa</figcaption>
+          </figure>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <h2>Contact me</h2>
+      <p>
+        &lt;&lt;&lt; &copy;
+        <a href="about.html" target="_blank">Cao Toan</a> &gt;&gt;&gt;
+      </p>
+      <p>
+        <a href="#">Back to Top</a>
+      </p>
+    </footer>
+  </body>
 </html>
