@@ -21,8 +21,7 @@
         <ul>
           <li><a href="#html">Learn Html</a></li>
           <li><a href="#vacay">Vacay Tourist Attractions</a></li>
-          <li><a href="#avoidplaces">Places to avoid</a></li>
-          <li><a href="#pic">Scenery Pictures</a></li>
+          <li><a href="#contact">Contact me</a></li>
         </ul>
       </nav>
     </header>
@@ -112,10 +111,73 @@
           </figure>
         </section>
       </article>
+      <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd really like to hear from you!</p>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <div>
+              <label for="firstName">First Name:</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="enter your first name"
+                autocomplete="on"
+                autofocus
+                required
+              />
+            </div>
+            <div>
+              <label for="lastName">Last Name:</label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="enter your last name"
+                autocomplete="on"
+                required
+              />
+            </div>
+            <div>
+              <label for="phone">Tel:</label>
+              <input
+                type="phone"
+                id="phone"
+                name="phone"
+                placeholder="9999999999"
+                pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                required
+              />
+            </div>
+            <div>
+              <label for="decade">Favorite Decade:</label>
+              <input
+                type="number"
+                id="decade"
+                name="decade"
+                min="1950"
+                max="2023"
+                step="10"
+                value="1980"
+                required
+              />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>What is your favorite type of coffee?</legend>
+            <select name="coffee" id="coffee">
+                <option value="latte">Latte</option>
+                <option value="cappuccino">Cappuccino</option>
+                <option value="americano">Americano</option>
+                <option value="Mocha">Mocha</option>
+            </select>
+        </fieldset>
+        </form>
+      </article>
     </main>
-
+    <hr />
     <footer>
-      <h2>Contact me</h2>
       <div class="ending">
         <p>
           &lt;&lt;&lt; &copy;

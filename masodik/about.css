@@ -47,6 +47,9 @@ table, tr, th, td, caption {
     border-collapse: collapse;
     padding: 0.5rem;
     width:70%;
-    margin-left:15%; 
-    margin-right:15%;
+    margin-top: -15px;
+}
+#table1 {
+    text-align: left;
+    padding-bottom: 20px;
 }
