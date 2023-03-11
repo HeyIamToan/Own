@@ -1,5 +1,5 @@
 html {
-    font-size: 13px;
+    font-size: 14px;
 }
 body {
     background-color: burlywood;
@@ -32,4 +32,16 @@ hr {
 }
 footer {
     font-size: 14px;
+}
+#conphung, #chua{
+    margin-top: -15px;
+}
+section {
+    margin-bottom: 20px;
+}
+.ending {
+    font-size: 12px;
+}
+figcaption {
+    font-size: 11px;
 }
