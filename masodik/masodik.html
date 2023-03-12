@@ -113,9 +113,10 @@
       </article>
       <article id="contact">
         <h2>Contact Me</h2>
-        <p>I'd really like to hear from you!</p>
+        <h4>I'd really like to hear from you!</h4>
         <form action="https://httpbin.org/get" method="get">
           <fieldset>
+            <legend>Personal Information:</legend>
             <div>
               <label for="firstName">First Name:</label>
               <input
@@ -163,20 +164,59 @@
                 required
               />
             </div>
-          </fieldset>
-          <fieldset>
-            <legend>What is your favorite type of coffee?</legend>
-            <select name="coffee" id="coffee">
-                <option value="latte">Latte</option>
-                <option value="cappuccino">Cappuccino</option>
-                <option value="americano">Americano</option>
-                <option value="Mocha">Mocha</option>
-            </select>
-        </fieldset>
+            <!-- <label for="coffee">What is your favorite type of coffee?<label>
+                <input type="text" name="coffee" id="coffee" list="coffee-list">
+                    <datalist id="coffee-list" >
+                        <option value="latte">
+                        <option value="cappuccino">
+                        <option value="americano">
+                        <option value="Mocha">
+                        <option value="other">
+                    </datalist> -->
+            </fieldset>   
+            <fieldset>
+                <legend>What's your favorite beverage & food?</legend>
+                <div>
+                    <label for="coffee">Coffee Option: <label>
+                        <select name="coffee" id="coffee">
+                            <optgroup label="Coffees">
+                                <option value="regular coffee" >Regular Coffee</option>
+                                <option value="iced coffee" >Iced Coffee</option>
+                            </optgroup>
+                            <optgroup label="Espresso Drinks">
+                                <option value="latte" selected>Latte</option>
+                                <option value="cappuccino">Cappuccino</option>
+                                <option value="americano">Americano</option>
+                                <option value="Mocha">Mocha</option>
+                            </optgroup>
+                            <option value="other">other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Food: </label>
+                        <label><input type="radio" name="food" id="tacos" value="tacos" checked>Tacos</label>
+                        <label><input type="radio" name="food" id="pho" value="pho">Vietnamese Pho</label>
+                        <label><input type="radio" name="food" id="kebab" value="kabab">Kebab</label>
+                        <label><input type="radio" name="food" id="other" value="other">Other</label>
+                    </div>
+                    <div>
+                        <label>Do you have pets?</label>
+                        <input type="checkbox" name="pet" id="yes" value="yes"><label for="yes" checked>Yes</label>
+                        <input type="checkbox" name="pet" id="no" value="no"><label for="no">No</label>
+                    </div>
+                    <div>
+                        <label for="message">Your message?</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>      
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>      
+                    <button type="Reset">Reset</button>      
+            </fieldset>   
         </form>
       </article>
     </main>
-    <hr />
+
     <footer>
       <div class="ending">
         <p>
