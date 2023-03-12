@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Cao Toan" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Cao Toan">
     <meta
       name="description"
       content="This page content all things I am learning how to create a HTML page"
-    />
-    <link rel="icon" href="/image/html5.png" type="image/x-icon" />
-    <link rel="stylesheet" href="main.css" type="text/css" />
+    >
+    <link rel="icon" href="/image/html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
     <title>Second Webpage</title>
   </head>
   <body>
@@ -31,9 +31,9 @@
         <h2>My second web to learn Html</h2>
         <h3>My Daily Schedule</h3>
         <p>
-          Lemme tell you how: <br />&nbsp;&nbsp;&nbsp;...I learn more about
-          Webpage <br />&nbsp;&nbsp;&nbsp;...I plan out my Schedule
-          <br />&nbsp;&nbsp;&nbsp;...I use rerouces from
+          Lemme tell you how: <br>&nbsp;&nbsp;&nbsp;...I learn more about
+          Webpage <br>&nbsp;&nbsp;&nbsp;...I plan out my Schedule
+          <br>&nbsp;&nbsp;&nbsp;...I use rerouces from
           <abbr title="Freecodecamp"
             ><a href="https://www.freecodecamp.org/" target="_blank"
               >FCC</a
@@ -47,7 +47,7 @@
             </summary>
             <p>
               I start at <time datetime="08:00"> 8 am </time> and write code for
-              <time datetime="PTH3"> 3 </time> hours every morning.
+              <time datetime="PT3H"> 3 </time> hours every morning.
             </p>
           </details>
         </aside>
@@ -63,7 +63,7 @@
               <h4>Cồn Phụng</h4>
               <address id="conphung">
                 Cồn Phụng thuộc ấp Tân Vinh, xã Tân Thạch
-                <br />huyện Châu Thành, tỉnh Bến Tre.
+                <br>huyện Châu Thành, tỉnh Bến Tre.
               </address>
             </li>
             <li>
@@ -96,7 +96,7 @@
               src="/image/ruongbacthang.jpeg"
               alt="Terrace in Sapa"
               loading="lazy"
-            />
+            >
             <figcaption>Sapa Terraces</figcaption>
           </figure>
           <figure>
@@ -106,7 +106,7 @@
               src="/image/caumaysapa.jpeg"
               alt="Terrace in Sapa"
               loading="lazy"
-            />
+            >
             <figcaption>Rong May Glass Bridge Sapa</figcaption>
           </figure>
         </section>
@@ -127,7 +127,7 @@
                 autocomplete="on"
                 autofocus
                 required
-              />
+              >
             </div>
             <div>
               <label for="lastName">Last Name:</label>
@@ -138,18 +138,18 @@
                 placeholder="enter your last name"
                 autocomplete="on"
                 required
-              />
+              >
             </div>
             <div>
               <label for="phone">Tel:</label>
               <input
-                type="phone"
+                type="tel"
                 id="phone"
                 name="phone"
                 placeholder="9999999999"
                 pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
                 required
-              />
+              >
             </div>
             <div>
               <label for="decade">Favorite Decade:</label>
@@ -162,7 +162,7 @@
                 step="10"
                 value="1980"
                 required
-              />
+              >
             </div>
             <!-- <label for="coffee">What is your favorite type of coffee?<label>
                 <input type="text" name="coffee" id="coffee" list="coffee-list">
@@ -173,46 +173,92 @@
                         <option value="Mocha">
                         <option value="other">
                     </datalist> -->
-            </fieldset>   
-            <fieldset>
-                <legend>What's your favorite beverage & food?</legend>
-                <div>
-                    <label for="coffee">Coffee Option: <label>
-                        <select name="coffee" id="coffee">
-                            <optgroup label="Coffees">
-                                <option value="regular coffee" >Regular Coffee</option>
-                                <option value="iced coffee" >Iced Coffee</option>
-                            </optgroup>
-                            <optgroup label="Espresso Drinks">
-                                <option value="latte" selected>Latte</option>
-                                <option value="cappuccino">Cappuccino</option>
-                                <option value="americano">Americano</option>
-                                <option value="Mocha">Mocha</option>
-                            </optgroup>
-                            <option value="other">other</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label>Food: </label>
-                        <label><input type="radio" name="food" id="tacos" value="tacos" checked>Tacos</label>
-                        <label><input type="radio" name="food" id="pho" value="pho">Vietnamese Pho</label>
-                        <label><input type="radio" name="food" id="kebab" value="kabab">Kebab</label>
-                        <label><input type="radio" name="food" id="other" value="other">Other</label>
-                    </div>
-                    <div>
-                        <label>Do you have pets?</label>
-                        <input type="checkbox" name="pet" id="yes" value="yes"><label for="yes" checked>Yes</label>
-                        <input type="checkbox" name="pet" id="no" value="no"><label for="no">No</label>
-                    </div>
-                    <div>
-                        <label for="message">Your message?</label>
-                        <br>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
-                    </div>
-                    <button type="submit">Submit</button>      
-                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>      
-                    <button type="Reset">Reset</button>      
-            </fieldset>   
+          </fieldset>
+          <fieldset>
+            <legend>What's your favorite beverage & food?</legend>
+            <div>
+              <label for="coffee">Coffee Option:</label>
+              <select name="coffee" id="coffee">
+                <optgroup label="Coffees">
+                  <option value="regular coffee">Regular Coffee</option>
+                  <option value="iced coffee">Iced Coffee</option>
+                </optgroup>
+                <optgroup label="Espresso Drinks">
+                  <option value="latte" selected>Latte</option>
+                  <option value="cappuccino">Cappuccino</option>
+                  <option value="americano">Americano</option>
+                  <option value="Mocha">Mocha</option>
+                </optgroup>
+                <option value="other">other</option>
+              </select>
+            </div>
+            <div>
+              <label>Food: </label>
+              <label
+                ><input
+                  type="radio"
+                  name="food"
+                  id="tacos"
+                  value="tacos"
+                >Tacos</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="food"
+                  id="pho"
+                  value="pho"
+                >Vietnamese Pho</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="food"
+                  id="kebab"
+                  value="kabab"
+                >Kebab</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="food"
+                  id="other"
+                  value="other"
+                >Other</label
+              >
+            </div>
+            <div>
+              <label>Do you have pets?</label>
+              <input type="checkbox" name="pet" id="yes" value="yes" checked><label
+                for="yes"
+                >Yes</label
+              >
+              <input type="checkbox" name="pet" id="no" value="no"><label
+                for="no"
+                >No</label
+              >
+            </div>
+            <div>
+              <label for="message">Your message?</label>
+              <br>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Type your message here"
+              ></textarea>
+            </div>
+            <button type="submit">Submit</button>
+            <button
+              type="submit"
+              formaction="https://httpbin.org/post"
+              formmethod="post"
+            >
+              Post
+            </button>
+            <button type="Reset">Reset</button>
+          </fieldset>
         </form>
       </article>
     </main>
