@@ -22,7 +22,7 @@
             </nav>
 
             <figure>
-                <img src="/Tacoshop/img/tacos_and_drink_400x267.png" atl="Tacos and Drink picture!">
+                <img src="/Tacoshop/img/tacos_and_drink_400x267.png" alt="Tacos and Drink picture!">
                 <figcaption>Tacos and a Drink</figcaption>
             </figure>
         </header>
@@ -50,40 +50,42 @@
             <div id="tacosmenu">
                 <h3>Our Menu</h3>
                     <table>
-                        <tr>
-                            <td colspan="3">Our Tacos</td>
-                        </tr>
-                        <tr>
-                            <th>Tacos</th>
-                            <th>Qty</th>
-                            <th>Price</th>
-                        </tr>
-                        <tr>
-                            <th rowspan="3">Crunchy</th>
-                            <td>1</td>
-                            <td>$1.50</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>$2.50</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>$3.25</td>
-                        </tr>
-                        <tr>
-                            <th rowspan="3">Soft</th>
-                            <td>1</td>
-                            <td>$2.00</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>$3.50</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>$3.25</td>
-                        </tr>
+                        <caption>Our Tacos</caption>
+                        <thead>
+                            <tr>
+                                <th>Tacos</th>
+                                <th scope="col"><abbr title="Quatity"></abbr>Qty</th>
+                                <th scope="col">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" rowspan="3">Crunchy</th>
+                                <td>1</td>
+                                <td>$1.50</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>$2.50</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>$3.25</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="3">Soft</th>
+                                <td>1</td>
+                                <td>$2.00</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>$3.50</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>$3.25</td>
+                            </tr>
+                        </tbody>
                         <tr>
                             <td colspan="3">Chips & Salsa $2
 
@@ -91,7 +93,7 @@
                         </tr>
                     </table>
             </div>
-            <a href="/" >Back to Top</a>
+            <p><a href="#" >Back to Top</a></p>
         </main>
         <hr>
         <footer>
